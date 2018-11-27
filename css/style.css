@@ -1,0 +1,200 @@
+body {
+	background: url(../img/home.jpg);
+	font-family: Segoe UI;
+}
+
+.logo {
+	position: absolute;
+	width: 15%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+.taba {
+	background: #E4E4E4; 
+	padding: 20px; 
+	height: 500px; 
+	position: absolute; 
+	border-radius: 15px;
+	top: -1px; 
+	left: 0; 
+	width: 100%; 
+}
+
+.tabs {
+	list-style: none;
+
+}
+
+.tabs li{
+	display: inline;
+}
+
+.tabs li a {
+	color: white;
+	font-family: Open Sans;
+	font-size: 23px;
+	float: right;
+	margin-top: 60px;
+	margin-right: 100px;
+	display: block;
+
+}
+
+.tabs li a:hover{
+	cursor:pointer;
+}
+
+.tabs li a:hover {
+	color:  #002446;
+}
+
+.group:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.tabnya {
+	text-align: justify;
+	background-color: #f5f5f5;
+	color: black;
+	width: 88%;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 455px;
+    border-radius: 10px;
+	background-color: rgb(228,228,228);
+    background-color: rgba(228,228,228, 0.8);
+}
+
+.register {
+	text-align: center;
+	background-color: #f5f5f5;
+	color: black;
+	width: 88%;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+    width: 800px;
+    border-radius: 10px;
+	background-color: rgb(228,228,228);
+    background-color: rgba(228,228,228, 0.8);
+}
+
+h1 {
+	text-align: center;
+	font-size: 27px;
+}
+
+p {
+	text-align: center;
+}
+
+/*.fak {
+	text-align: left;
+}*/
+
+.panah {
+	position: absolute;
+	bottom: 0;
+	margin-left: 40%;
+	margin-bottom: 35px;
+}
+
+.panah2 {
+	position: absolute;
+	top: : 0;
+	margin-left: 40%;
+	margin-top: -15px;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: left;
+	margin-block-end:0;
+}
+
+td {
+	width: 27%;
+	padding-right:10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.beranda {
+	font-size: 50px;
+	color:yellow;
+	margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+body {
+	color: white;
+}
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+   
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+
+.body .input h2 {
+	text-align: center;
+}
+
+.body .output h2 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.body .output table {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+
